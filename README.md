@@ -1,5 +1,5 @@
 # log4shell-dockerlab
-
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 ## Credits
 All credits goes to the original authors. I just git-cloned and created a docker-compose file, that's all. 
 
