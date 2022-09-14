@@ -1,5 +1,5 @@
 # Java Unmarshaller Security - Turning your data into code execution
-
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 If you came here for Log4Shell/CVE-2021-44228, you may want to read about 
 the exploitation vectors and affected Java runtime versions:
 <https://mbechler.github.io/2021/12/10/PSA_Log4Shell_JNDI_Injection/>
