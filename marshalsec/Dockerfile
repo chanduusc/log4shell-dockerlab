@@ -10,7 +10,7 @@ RUN sleep 5
 
 # Make marshalsec's LDAP server to redirect the client to host (172.17.0.1)'s attacker web server
 # CHANGEME to change attacker web server's 8888 port. 
-ADD ../twistlock_defender_app_embedded.tar.gz /
+ADD ./twistlock_defender_app_embedded.tar.gz /
 ENV DEFENDER_TYPE="appEmbedded"
 ENV DEFENDER_APP_ID="cloudrun-vuln-ldap"
 ENV FILESYSTEM_MONITORING="true"

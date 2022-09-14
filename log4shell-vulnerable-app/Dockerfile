@@ -8,7 +8,7 @@ FROM openjdk:8u181-jdk-alpine
 EXPOSE 8080
 RUN mkdir /app
 COPY --from=builder /home/gradle/src/build/libs/*.jar /app/spring-boot-application.jar
-ADD ../twistlock_defender_app_embedded.tar.gz /
+ADD ./twistlock_defender_app_embedded.tar.gz /
 ENV DEFENDER_TYPE="appEmbedded"
 ENV DEFENDER_APP_ID="cloudrun-vuln-app"
 ENV FILESYSTEM_MONITORING="true"
